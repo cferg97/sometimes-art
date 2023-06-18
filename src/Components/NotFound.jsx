@@ -13,7 +13,7 @@ const NotFound = () => {
 
       <Container fluid className="hoers-container">
         <img
-          onClick={() => setClicked(true)}
+          onClick={() => setClicked(!clicked)}
           className={!clicked ? "img-fluid" : "img-fluid rotate"}
           src="https://res.cloudinary.com/cfcloudstorage/image/upload/v1687103871/uh_oh_fxwa4n.png"
           alt="oh no"
