@@ -25,6 +25,11 @@ const NotFound = () => {
           Made by Katie
         </a>
       </Row>
+      <Row className="text-center p-0 m-0">
+        <a target="_blank" href="https://www.redbubble.com/people/SketchyPon3/">
+          Or sometimes merch?
+        </a>
+      </Row>
     </>
   );
 };
