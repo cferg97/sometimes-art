@@ -1,7 +1,8 @@
+import InProgress from "./Components/InProgress";
 import NotFound from "./Components/NotFound";
 
 function App() {
-  return <NotFound />;
+  return <InProgress />;
 }
 
 export default App;
